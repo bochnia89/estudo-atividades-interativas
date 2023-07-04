@@ -1,0 +1,212 @@
+.box_corpo{
+    border: 1px solid red;
+    position: relative;
+}
+.corpo_osseo {
+    position: absolute;
+    z-index: 2;
+    width: 400px;
+    display: none;
+}
+
+.corpo_org{
+    position: absolute;
+    width: 400px;
+    z-index:4 ;
+    display: none;
+  
+}
+
+.corpo_sangui {
+    position: absolute;
+    width:400px;
+    z-index:3 ;
+    display: none;
+ 
+}
+
+#corpo {
+    position: absolute;
+    width: 400px;
+    z-index:1 ;
+    opacity: 1;
+}
+
+#corpo .cls-1 {
+    fill: #a9745a;
+    stroke: #7f4633;
+  }
+
+.ativa{
+    display: block;
+}
+
+#cranio:hover, #mao_direita:hover, #femur_direito:hover,
+#tronco:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+#tronco::before{
+    content: 'Tronco';
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    margin: 0 0 0 0;
+}
+
+#cota{
+    display:none;
+}
+
+#corpo_sistema .cls-1 {
+    fill: #a9745a;
+  }
+
+  #corpo_sistema  .cls-1, .cls-14 {
+    stroke: #7f4633;
+  }
+
+  #corpo_sistema  .cls-2 {
+    fill: #cfc8b5;
+  }
+
+  #corpo_sistema .cls-13, #corpo_sistema .cls-14, #corpo_sistema .cls-3, #corpo_sistema .cls-7, #corpo_sistema .cls-8 {
+    fill: none;
+  }
+
+  #corpo_sistema .cls-3, #corpo_sistema .cls-5, #corpo_sistema .cls-7, #corpo_sistema .cls-8, #corpo_sistema .cls-9 {
+    opacity: 0.3;
+  }
+
+  #corpo_sistema .cls-4 {
+    fill: #c4db9b;
+  }
+
+  #corpo_sistema.cls-5 {
+    fill: #79a047;
+  }
+
+  #corpo_sistema .cls-6 {
+    fill: #ffe87f;
+  }
+
+  #corpo_sistema .cls-7 {
+    stroke: #f7a600;
+  }
+
+  #corpo_sistema .cls-13, #corpo_sistema .cls-7, #corpo_sistema .cls-8 {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  #corpo_sistema .cls-10, #corpo_sistema .cls-13, #corpo_sistema .cls-7 {
+    stroke-width: 0.3px;
+  }
+
+  #corpo_sistema .cls-8 {
+    stroke: #b2b2b2;
+    stroke-width: 0.25px;
+  }
+
+  #corpo_sistema .cls-9 {
+    fill: #b2b2b2;
+  }
+
+  #corpo_sistema  .cls-10 {
+    fill: #fff9c7;
+    stroke: #fcc978;
+  }
+
+  #corpo_sistema  .cls-11 {
+    fill: url(#linear-gradient);
+  }
+
+  #corpo_sistema  .cls-12 {
+    fill: url(#linear-gradient-2);
+  }
+
+  #corpo_sistema .cls-13 {
+    stroke: #f39daa;
+  }
+
+
+  /*👉CORPO SANGUINEO👈*/
+  .corpo_sangui .cls-1 {
+    fill: url(#linear-gradient);
+  }
+
+  .corpo_sangui .cls-2 {
+    fill: url(#linear-gradient-2);
+  }
+
+  .corpo_sangui .cls-3 {
+    fill: #f4dac8;
+    stroke: #d19780;
+  }
+
+  .corpo_sangui .cls-4, .corpo_sangui .cls-5 {
+    fill: #0069b4;
+  }
+
+  .corpo_sangui .cls-4, .corpo_sangui .cls-6 {
+    fill-rule: evenodd;
+  }
+
+  .corpo_sangui .cls-6, .corpo_sangui .cls-9 {
+    fill: #e30613;
+  }
+
+  .corpo_sangui .cls-7 {
+    opacity: 0.3;
+  }
+
+  .corpo_sangui .cls-8 {
+    fill: #fff;
+  }
+
+ .corpo_sangui  .cls-10 {
+    clip-path: url(#clip-path);
+  }
+
+ .corpo_sangui  .cls-11 {
+    fill: #a41712;
+  }
+
+ .corpo_sangui  .cls-12 {
+    opacity: 0.65;
+  }
+
+ .corpo_sangui  .cls-13, .corpo_sangui .cls-20 {
+    fill: none;
+  }
+
+ .corpo_sangui  .cls-14 {
+    clip-path: url(#clip-path-2);
+  }
+
+ .corpo_sangui  .cls-15 {
+    fill: #0068b2;
+  }
+
+ .corpo_sangui  .cls-16 {
+    opacity: 0.37;
+  }
+
+ .corpo_sangui  .cls-17 {
+    opacity: 0.34;
+  }
+
+  .corpo_sangui .cls-18 {
+    opacity: 0.48;
+  }
+
+ .corpo_sangui  .cls-19 {
+    fill: #b4261c;
+  }
+
+ .corpo_sangui  .cls-20 {
+    stroke: #1d1d1b;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.3px;
+  }

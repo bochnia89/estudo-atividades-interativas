@@ -1,0 +1,28 @@
+.trapezio{
+    width: 250px;
+    height: 250px;
+    background-color: #f98b2a;
+    margin:0 auto;
+    animation: square 3s infinite  alternate;
+}
+
+
+.trapezio2{
+    width: 250px;
+    height: 250px;
+    background-color: #f22af9;
+    margin:0 auto;
+    clip-path: polygon(20% 30%, 80% 30%, 100% 100%, 0% 100%);
+}
+@keyframes square {
+    0%   {
+        clip-path: polygon(0% 30%, 100% 30%, 100% 100%, 0% 100%);
+    }
+ 
+  
+    100% {
+        clip-path: polygon(20% 30%, 80% 30%, 100% 100%, 0% 100%);
+    }
+  
+}  
+

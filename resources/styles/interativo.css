@@ -1,0 +1,63 @@
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus{
+    border: 1px solid #00696c;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+
+
+
+svg #Grupo_68,
+svg #Grupo_67,
+svg #Grupo_64,
+svg #Grupo_62,
+svg #Grupo_58,
+svg #Grupo_60, 
+svg #Grupo_56{
+    opacity: 0.4;
+    cursor:context-menu;
+   
+}
+
+svg #Grupo_68:hover,svg #Grupo_68:focus-visible ,
+svg #Grupo_67:hover,
+svg #Grupo_64:hover,
+svg #Grupo_62:hover,
+svg #Grupo_58:hover,
+svg #Grupo_60:hover, 
+svg #Grupo_56:hover{
+    opacity:1;
+ 
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+
+    main {
+        width: 100%;
+        max-width: 100%;
+
+    }
+    svg{
+        max-width: 100%;
+    }
+}

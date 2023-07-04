@@ -1,0 +1,36 @@
+path {
+    fill:transparent;
+    stroke: black;
+  }
+  path:hover {
+    cursor: pointer;
+  }
+  
+  #texto1{
+    fill:grey;
+  }
+
+  
+/*👉  
+  #Caminho_1848:hover, #Caminho_1849:hover, #Caminho_1850:hover, #Caminho_1851:hover, #Caminho_1852:hover, #Caminho_1853:hover, #Caminho_1854:hover, #Caminho_1855:hover, #Caminho_1856:hover, #Caminho_1857:hover, #Caminho_1857:hover, #Caminho_1857:hover,
+  #Caminho_1857:hover, #Caminho_1858:hover, #Caminho_1859:hover,
+  #Caminho_1860:hover, #Caminho_1861:hover, #Caminho_1862:hover,
+  #Caminho_1863:hover, #Caminho_1864:hover, #Caminho_1865:hover,
+  #Caminho_1866:hover, #Caminho_1867:hover, #Caminho_1868:hover,
+  #Caminho_1869:hover, #Caminho_1870:hover, #Caminho_1871:hover,
+  #Caminho_1872:hover, #Caminho_1873:hover, #Caminho_1874:hover,
+  #Caminho_1875:hover, #Caminho_1876:hover, #Caminho_1877:hover,
+  #Caminho_1878:hover, #Caminho_1879:hover, #Caminho_1880:hover,
+  #Caminho_1881:hover, #Caminho_1882:hover, #Caminho_1883:hover,
+  #Caminho_1884:hover, #Caminho_1885:hover, #Caminho_1886:hover,
+  #Caminho_1887:hover, #Caminho_1888:hover, #Caminho_1889:hover,
+  #Caminho_1890:hover, #Caminho_1891:hover, #Caminho_1892:hover,
+  #Caminho_1893:hover, #Caminho_1894:hover, #Caminho_1895:hover,
+  #Caminho_1896:hover, #Caminho_1897:hover, #Caminho_1898:hover    {
+    fill: black;
+    stroke: white;
+  }👈*/
+  
+  .ativo {
+    fill: rgba(216, 0, 151, 0.6) !important;
+  }

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47.687" height="22.01" viewBox="0 0 47.687 22.01">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_1154" data-name="Caminho 1154" d="M0,0H47.687V-22.01H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="cotamodelo_g" transform="translate(0 22.01)">
+    <g id="Grupo_663" data-name="Grupo 663" clip-path="url(#clip-path)">
+      <g id="Grupo_658" data-name="Grupo 658" transform="translate(44.001 -21.26)">
+        <path id="Caminho_1149" data-name="Caminho 1149" d="M0,0H-36.7" fill="none" stroke="#2b2e34" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 2.936"/>
+      </g>
+      <g id="Grupo_659" data-name="Grupo 659" transform="translate(3 -18.425)">
+        <path id="Caminho_1150" data-name="Caminho 1150" d="M0,0A2.824,2.824,0,0,1,.83-2" fill="none" stroke="#2b2e34" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 4.453"/>
+      </g>
+      <g id="Grupo_660" data-name="Grupo 660" transform="translate(3 -15.34)">
+        <path id="Caminho_1151" data-name="Caminho 1151" d="M0,0V10.8" fill="none" stroke="#2b2e34" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 3.085"/>
+      </g>
+      <g id="Grupo_661" data-name="Grupo 661" transform="translate(46.937 -21.26)">
+        <path id="Caminho_1152" data-name="Caminho 1152" d="M0,0H0M-41.1,0h0m-2.835,2.835h0m0,15.425h0" fill="none" stroke="#2b2e34" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <g id="Grupo_662" data-name="Grupo 662" transform="translate(3)">
+        <path id="Caminho_1153" data-name="Caminho 1153" d="M0,0A3,3,0,0,0,3-3,3,3,0,0,0,0-6,3,3,0,0,0-3-3,3,3,0,0,0,0,0" fill="#2b2e34"/>
+      </g>
+    </g>
+  </g>
+</svg>

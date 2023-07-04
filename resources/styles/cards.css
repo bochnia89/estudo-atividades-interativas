@@ -1,0 +1,181 @@
+.box_card {
+    background: rgb(54, 54, 54);
+    position: fixed;
+    z-index: 1000;
+    padding: 1em;
+}
+
+.box_card h2 {
+    color: #dccdff;
+    font-size: 1.4em;
+}
+
+.box_card .card li a, .box_card .card li {
+    color: #fff;
+}
+
+.box_card .card li {
+    margin: 0.5em 0;
+}
+
+.box_card .card li a:hover {
+    color: #dccdff;
+}
+
+
+ /*👉 MODELO DE CARD 01👈*/
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    padding: 1em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 1em;
+    text-align: left;
+   
+  }
+
+  .flip-card-front  h2{
+    text-align: center;
+    padding:0.5em 0 1em 0;
+  }
+
+
+ /*👉 MODELO DE CARD 2👈*/
+
+ .scene {
+    display: inline-block;
+    width: 180px;
+    height: 260px;
+  /*   border: 1px solid #CCC; */
+    margin: 0.2em 0;
+    perspective: 600px;
+  }
+  
+  .card {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+  }
+  .card__face {
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center;
+  }
+  .card.is-flipped {
+    transform: translateX(-100%) rotateY(-180deg);
+  }
+  
+  .card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 260px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    backface-visibility: hidden;
+  }
+  
+  .card__face--front {
+    background: crimson;
+  }
+  
+  .card__face--back {
+    background: slateblue;
+    transform: rotateY(180deg);
+  }
+  
+
+/*👉  PROCESSO DE MATEMÁTICA👈*/
+.processoMath .card__face{
+    border-radius: 16px;
+}
+
+.processoMath .card__face {
+    height: 200px;
+}
+.processoMath .card__face--back {
+    background: rgb(90, 130, 205);
+}
+
+.processoMath .card__face--front {
+    background: rgb(13, 136, 145);
+  }
+  
+
+  /*👉CARDS ETAPAS👈*/
+
+  .boxCardsEtapa .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boxCardsEtapa figure{
+    margin: 0.2em 0 !important;
+    max-width: 90%;
+  }
+
+  .boxCardsEtapa .card__face{
+    line-height:120% !important; 
+  }
+
+  .boxCardsEtapa  .card__face--front {
+    color:slateblue ;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+    background: #fff;
+    border:1px solid #bbb;
+  }
+
+  .tx_card {
+    text-align: left;
+    padding: 1em;
+    font-size: 0.8em;
+  }

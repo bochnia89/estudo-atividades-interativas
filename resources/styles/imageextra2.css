@@ -1,0 +1,371 @@
+.container {
+    position: relative;
+    text-align: center;
+}
+
+
+/*👉Posições das cotas👈*/
+/* Capcete */
+.cota1 {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    text-align: right;
+}
+
+.cota1::after {
+    background: url(../images/cotas/cotamodelo_a.svg) top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    margin: 0 0 0 0;
+}
+
+/* Retrovisor */
+.cota2 {
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    text-align: left;
+}
+
+.cota2::before {
+    background: url(../images/cotas/cotamodelo_c.svg) top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 35px;
+    height: 60px;
+    position: absolute;
+    margin: 5px 0 0 -40px;
+}
+
+/* Sinalização */
+.cota3 {
+    position: absolute;
+    top: 30px;
+    right: 90px;
+    text-align: left;
+}
+
+.cota3::after {
+    background: url(../images/cotas/cotamodelo_e.svg) top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 40px;
+    height: 60px;
+    position: absolute;
+    margin: 0 0 0 0;
+}
+
+/* Buzina */
+.cota4 {
+    position: absolute;
+    top: 130px;
+    left: 610px;
+    text-align: left;
+}
+
+.cota4::before {
+    background: url(../images/cotas/cotamodelo_f.svg) top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 65px;
+    height: 60px;
+    position: absolute;
+    margin: 5px 0 0 -75px;
+}
+
+/* Farol */
+.cota5 {
+    position: absolute;
+    top: 190px;
+    right: 185px;
+    text-align: left;
+}
+
+.cota5::before {
+    background: url(../images/cotas/cotamodelo_d.svg) top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 75px;
+    height: 65px;
+    position: absolute;
+    margin: -15px 0 0 -80px;
+}
+
+/* Sinalizador traseiro */
+.cota6 {
+    position: absolute;
+    top: 190px;
+    left: 250px;
+    text-align: left;
+}
+
+.cota6::after {
+    background: url(../images/cotas/cotamodelo_b.svg) top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 60px;
+    height: 65px;
+    position: absolute;
+    margin: -18px 0px 0 30px;
+}
+
+/* Manutenção */
+.cota7 {
+    position: absolute;
+    bottom: 90px;
+    left: 140px;
+    text-align: left;
+}
+
+.cota7::after {
+    background: url(../images/cotas/cotamodelo_g.svg) top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 90px;
+    height: 65px;
+    position: absolute;
+    margin: -65px 0px 0 -60px;
+}
+
+/* Ciclovia */
+.cota8 {
+    position: absolute;
+    bottom: 0px;
+    right: 140px;
+    text-align: left;
+}
+
+.cota8::before {
+    background: url(../images/cotas/cotamodelo_h.svg) top left no-repeat;
+    background-size: 100%;
+    content: '';
+    width: 50px;
+    height: 55px;
+    position: absolute;
+    margin: -40px 0px 0 -60px;
+}
+
+.cota9 {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    text-align: left;
+}
+
+.cota1,
+.cota2,
+.cota3,
+.cota4,
+.cota5,
+.cota6,
+.cota7,
+.cota8,
+.cota9 {
+    opacity: 0;
+    animation-name: anima;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+
+
+    /*👉animation-delay: 10;
+    -moz-animation-delay: 10;
+    -webkit-animation-delay: 10;
+    -moz-animation: anima 5s forwards;
+    -webkit-animation: anima 5s forwards;
+    animation: anima 5s forwards;👈*/
+
+}
+
+
+@keyframes anima {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+.line {
+    border-right: 2px solid rgba(0, 0, 0, 1);
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.ti_cota {
+    background: rgb(255, 208, 0);
+    line-height: 130%;
+    font-size: 1.3em;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    width: 0;
+    animation: blinkCursor 500ms steps(40) infinite normal,
+        typing 4s steps(40) 2s normal forwards;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 12em;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: rgba(0, 0, 0, 0.75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .container img {
+        max-width: 100%;
+    }
+
+    .ti_cota {
+        position: static;
+        text-align: left;
+        max-width: max-content;
+    }
+
+    .cota1,
+    .cota3,
+    .cota4,
+    .cota5,
+    .cota6,
+    .cota7,
+    .cota8,
+    .cota9 {
+        position: static;
+        text-align: left;
+        margin: 0 0 0 90px;
+        padding: 20px 0 20px 0;
+
+    }
+
+    .cota2,
+    .cota4 {
+        position: static;
+        text-align: left;
+        margin: 0 0 0 90px;
+        padding: 20px 0 40px 0;
+
+    }
+
+    .cota1::after,
+    .cota3::after,
+    .cota6::after,
+    .cota7::after {
+        display: none;
+    }
+
+    .cota1::before,
+    .cota2::before,
+    .cota3::before,
+    .cota4::before,
+    .cota5::before,
+    .cota6::before,
+    .cota7::before,
+    .cota8::before,
+    .cota9::before {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        margin: -15px 0 0 -80px;
+
+    }
+
+    .cota1::before {
+        content: '';
+        background: url(../images/imgcota.png);
+
+        background-position-x: 48%;
+        background-position-y: 5%;
+        border: 1px solid rgb(71, 71, 71);
+    }
+
+    .cota2::before {
+        content: '';
+        background: url(../images/imgcota.png);
+        background-position-x: 55%;
+        background-position-y: 20%;
+        border: 1px solid rgb(71, 71, 71);
+    }
+
+    .cota3::before {
+        content: '';
+        background: url(../images/imgcota.png);
+        background-position-x: 100%;
+        background-position-y: 5%;
+        border: 1px solid rgb(71, 71, 71);
+    }
+
+    .cota4::before {
+        content: '';
+        background: url(../images/imgcota.png);
+        background-position-x: 52%;
+        background-position-y: 29%;
+        border: 1px solid rgb(71, 71, 71);
+    }
+
+    .cota5::before {
+        content: '';
+        background: url(../images/imgcota.png);
+        background-position-x: 55%;
+        background-position-y: 39%;
+        border: 1px solid rgb(71, 71, 71);
+    }
+
+    .cota6::before {
+        content: '';
+        background: url(../images/imgcota.png);
+        background-position-x: 41%;
+        background-position-y: 53%;
+        border: 1px solid rgb(71, 71, 71);
+    }
+
+    .cota7::before {
+        content: '';
+        background: url(../images/imgcota.png);
+        background-position-x: 33%;
+        background-position-y: 65%;
+        border: 1px solid rgb(71, 71, 71);
+    }
+
+
+    .cota8::before {
+        content: '';
+        background: url(../images/imgcota.png);
+        background-position-x: 70%;
+        background-position-y: 97%;
+        border: 1px solid rgb(71, 71, 71);
+    }
+
+    .cota9::before {
+        content: '';
+        background: url(../images/imgcota.png);
+        background-position-x: 25%;
+        background-position-y: 47%;
+        border: 1px solid rgb(71, 71, 71);
+    }
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.711" height="6" viewBox="0 0 23.711 6">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Caminho_1132" data-name="Caminho 1132" d="M0,0H23.711V-6H0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="cotamodelo_e" transform="translate(0 6)">
+    <g id="Grupo_637" data-name="Grupo 637" clip-path="url(#clip-path)">
+      <g id="Grupo_634" data-name="Grupo 634" transform="translate(5.852 -3)">
+        <path id="Caminho_1129" data-name="Caminho 1129" d="M0,0H15.683" fill="none" stroke="#2b2e34" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="0 2.852"/>
+      </g>
+      <g id="Grupo_635" data-name="Grupo 635" transform="translate(3 -3)">
+        <path id="Caminho_1130" data-name="Caminho 1130" d="M0,0H0M19.961,0h0" fill="none" stroke="#2b2e34" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <g id="Grupo_636" data-name="Grupo 636" transform="translate(3)">
+        <path id="Caminho_1131" data-name="Caminho 1131" d="M0,0A3,3,0,0,0,3-3,3,3,0,0,0,0-6,3,3,0,0,0-3-3,3,3,0,0,0,0,0" fill="#2b2e34"/>
+      </g>
+    </g>
+  </g>
+</svg>

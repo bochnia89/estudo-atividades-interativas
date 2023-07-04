@@ -1,0 +1,23 @@
+#ponteiro {
+ 
+    transform: rotate(90deg);
+    
+}
+
+.ponteiro {
+    width: 30px;
+    height: 150px;
+    background: red;
+    position:absolute;
+    margin-top: 280px;
+    margin-left: 380px;
+    transform: rotate(0deg);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%)
+    
+
+}
+
+
+svg {
+   
+}

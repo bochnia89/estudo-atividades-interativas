@@ -1,0 +1,28 @@
+.circulo{
+    width: 250px;
+    height: 250px;
+    background-color: #f98b2a;
+    margin:0 auto;
+    animation: square 3s infinite  alternate;
+}
+
+
+.circulo2{
+    background-color: #f22af9;
+    clip-path: circle(50% at 50% 50%);
+    height: 250px;
+    margin:0 auto;
+    width: 250px;
+}
+@keyframes square {
+    0%   {
+        clip-path: circle(00% at 00% 00%);
+    }
+ 
+  
+    100% {
+        clip-path: circle(50% at 50% 50%);
+    }
+  
+}  
+

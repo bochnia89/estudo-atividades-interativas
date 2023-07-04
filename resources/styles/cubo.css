@@ -1,0 +1,19 @@
+section#main section section article,
+section#main header nav ul { float: right; position:relative; width: 600px; }
+section#main section section article h2.blue { color: #009fda; }
+
+
+/* Cubo */
+section#main section.cubo { left: 50%; margin-left: -480px; position: absolute; top:0; width: 960px; }
+section#main section.cubo #cubo-canvas { height: 390px; margin:0; position:relative; width: 390px; z-index:10; }
+section#main section.cubo #cubo-canvas canvas,
+section#main section.cubo #cubo-canvas img { left: 0; position: absolute; top: 0; }
+section#main section.cubo #cubo-canvas.fixed { position:fixed; }
+
+    
+/* Cubo */
+section#main section.cubo { background:#003075; left:0; margin-left:0; padding-bottom:0; position: relative; width: 100%; }
+section#main section.cubo #cubo-canvas { height:320px; left:50%; margin-left: -160px; position: relative; width: 320px; }
+section#main section.cubo #cubo-canvas canvas { width:320px; }
+section#main section.cubo #cubo-canvas.fixed { position:relative; }
+ 

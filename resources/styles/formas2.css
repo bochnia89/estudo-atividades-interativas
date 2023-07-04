@@ -1,0 +1,26 @@
+.hexagono{
+    width: 250px;
+    height: 250px;
+    background-color: #f98b2a;
+    margin: 0 auto;
+    animation: hexagon 3s infinite  alternate;
+}
+
+.hexagono2{
+    width: 250px;
+    height: 250px;
+    background-color: #f9422a;
+    margin: 0 auto;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
+
+
+@keyframes hexagon {
+    from   {
+         clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+        
+    }
+   to {
+         clip-path: polygon(50% 0%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);
+    }
+}
